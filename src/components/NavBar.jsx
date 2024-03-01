@@ -1,6 +1,7 @@
-import { MdArrowRightAlt } from "react-icons/md";
+
 import { TbWorld } from "react-icons/tb";
 import { Link } from "react-router-dom";
+import ButtonArrow from "./ButtonArrow";
 
 const NavBar = () => {
     return (
@@ -78,16 +79,18 @@ const NavBar = () => {
                 </div>
             </div>
             <div className="hidden lg:flex items-center text-sm font-semibold">
-                <Link className="active:bg-gray-700 active:text-white flex items-center py-1 px-2 hover:rounded-lg hover:bg-[#e8e9eb]">
+                <Link className="active:bg-gray-700 active:text-white flex items-center p-2 hover:rounded-lg hover:bg-[#e8e9eb]">
                     <span className="mr-1 text-xl">
                         <TbWorld />
                     </span>
                     <span>EN</span>
                 </Link>
-                <Link className="active:bg-gray-700 active:text-white py-1 px-2 hover:rounded-lg hover:bg-[#e8e9eb]">Contact Sales</Link>
-                <Link className="active:bg-gray-700 active:text-white py-1 px-2 mr-2 hover:rounded-lg hover:bg-[#e8e9eb]">Login</Link>
-                <button className="btn bg-[#4262ff] hover:bg-blue-700 text-white rounded-3xl px-5">Sign up free<MdArrowRightAlt />
-                </button>
+                <Link className="active:bg-gray-700 active:text-white p-2 hover:rounded-lg hover:bg-[#e8e9eb]">Contact Sales</Link>
+                <Link className="active:bg-gray-700 active:text-white p-2 mr-2 hover:rounded-lg hover:bg-[#e8e9eb]">Login</Link>
+                <ButtonArrow
+                    title='Sign up free'
+                    type='filled'
+                ></ButtonArrow>
             </div>
         </nav>
     );
