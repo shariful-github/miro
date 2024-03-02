@@ -8,7 +8,7 @@ const TrustedOrganizations = () => {
     return (
         <section className='my-24'>
             <h4 className='text-center text-[#696688] mb-10'>Trusted by 45M+ users</h4>
-            <div className='flex justify-evenly border'>
+            <div className='flex justify-evenly'>
                 <div>
                     <img className='w-full' src={walmart} alt="" />
                 </div>
