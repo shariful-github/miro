@@ -6,7 +6,7 @@ import icon from '../assets/images/getapp.svg';
 
 const Banner = () => {
     return (
-        <section className="grid grid-cols-1 lg:grid-cols-12 mt-14 mx-10 lg:mx-auto">
+        <section className="grid grid-cols-1 lg:grid-cols-12 mt-14">
             <div className="lg:col-span-5 flex flex-col justify-center">
                 <h1 className="text-5xl font-bold text-[#050038]">Take ideas from better to best</h1>
                 <p className="text-[#4b4770] mt-4 mb-6">Miro is your team's visual platform to connect, collaborate, and create — together.</p>
