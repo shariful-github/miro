@@ -1,4 +1,5 @@
 import Banner from "../components/Banner";
+import BuiltForAll from "../components/BuiltForAll";
 import ConnectTools from "../components/ConnectTools";
 import Highlights from "../components/Highlights";
 import NavBar from "../components/NavBar";
@@ -17,6 +18,7 @@ const Home = () => {
                 <WorkTogether></WorkTogether>
                 <ConnectTools></ConnectTools>
                 <TheWay></TheWay>
+                <BuiltForAll></BuiltForAll>
             </div>
         </div>
     );
