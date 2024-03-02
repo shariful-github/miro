@@ -1,4 +1,5 @@
 import Banner from "../components/Banner";
+import BestTeams from "../components/BestTeams";
 import BuiltForAll from "../components/BuiltForAll";
 import ConnectTools from "../components/ConnectTools";
 import Highlights from "../components/Highlights";
@@ -19,6 +20,7 @@ const Home = () => {
                 <ConnectTools></ConnectTools>
                 <TheWay></TheWay>
                 <BuiltForAll></BuiltForAll>
+                <BestTeams></BestTeams>
             </div>
         </div>
     );
