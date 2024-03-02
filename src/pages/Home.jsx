@@ -1,4 +1,5 @@
 import Banner from "../components/Banner";
+import ConnectTools from "../components/ConnectTools";
 import Highlights from "../components/Highlights";
 import NavBar from "../components/NavBar";
 import TrustedOrganizations from "../components/TrustedOrganizations";
@@ -13,6 +14,7 @@ const Home = () => {
                 <TrustedOrganizations></TrustedOrganizations>
                 <Highlights></Highlights>
                 <WorkTogether></WorkTogether>
+                <ConnectTools></ConnectTools>
             </div>
         </div>
     );
