@@ -2,6 +2,7 @@ import Banner from "../components/Banner";
 import BestTeams from "../components/BestTeams";
 import BuiltForAll from "../components/BuiltForAll";
 import ConnectTools from "../components/ConnectTools";
+import Footer from "../components/Footer";
 import Highlights from "../components/Highlights";
 import NavBar from "../components/NavBar";
 import TheWay from "../components/TheWay";
@@ -22,6 +23,7 @@ const Home = () => {
                 <BuiltForAll></BuiltForAll>
                 <BestTeams></BestTeams>
             </div>
+            <Footer></Footer>
         </div>
     );
 };

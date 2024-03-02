@@ -20,7 +20,7 @@ const BestTeams = () => {
                 <div>
                     <img className="mb-5" src={vmware} alt="" />
                     <p className="text-[#696688] text-lg">“When the pandemic hit, those of us who thrive on in-person collaboration were worried that our creativity and productivity would suffer. Miro was the perfect tool to help us with collaboration, whiteboarding, and retrospectives while remote.”</p>
-                    <div className="flex gap-5 items-center mt-10">
+                    <div className="flex gap-5 items-center mt-5 lg:mt-10">
                         <img src={person1} alt="" />
                         <div>
                             <p className="text-[#696688] text-sm">Roxanne Mustafa</p>
@@ -28,10 +28,10 @@ const BestTeams = () => {
                         </div>
                     </div>
                 </div>
-                <div className="relative">
+                <div className="lg:relative">
                     <img className="mb-5" src={docusign} alt="" />
                     <p className="text-[#696688] text-lg">“Miro helps solve one of the major gaps in product design: how to manage tasks across product designers whose projects are in different tools.”</p>
-                    <div className="flex gap-5 items-center absolute bottom-0">
+                    <div className="flex gap-5 items-center mt-5 lg:absolute lg:bottom-0">
                         <img src={person2} alt="" />
                         <div>
                             <p className="text-[#696688] text-sm">Roxanne Mustafa</p>
@@ -42,7 +42,7 @@ const BestTeams = () => {
                 <div className="relative">
                     <img className="mb-5" src={frog} alt="" />
                     <p className="text-[#696688] text-lg">“As we used Miro we moved from skepticism to belief to innovation, and now we have a tool that’s at the core of what we do and will continue to extend into the future.”</p>
-                    <div className="flex gap-5 items-center absolute bottom-0">
+                    <div className="flex gap-5 items-center mt-5 lg:absolute lg:bottom-0">
                         <img src={person3} alt="" />
                         <div>
                             <p className="text-[#696688] text-sm">Roxanne Mustafa</p>
