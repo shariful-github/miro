@@ -18,35 +18,35 @@ const Footer = () => {
                                 <Link><img src={facebook} alt="" /></Link>
                                 <Link><img src={youtube} alt="" /></Link>
                             </div>
-                            <span className='mr-7 text-xs underline'>Privacy Policy</span>
-                            <span className='text-xs underline'>Terms of Service</span>
+                            <Link className='mr-7 text-xs underline'>Privacy Policy</Link>
+                            <Link className='text-xs underline'>Terms of Service</Link>
                             <p className='text-xs mt-10'>Copyright © 2022 Certo Software Limited | Registered in England & Wales No. 10072356</p>
-                            <p className='text-xs mt-5'>Designed & developed by <span className='underline'>Bigger Picture</span></p>
+                            <p className='text-xs mt-5'>Designed & developed by <Link className='underline'>Bigger Picture</Link></p>
                         </div>
                         {/* col-2 */}
                         <div className="col-span-5 pl-7 lg:pl-16">
                             <h2 className='text-4xl font-bold mb-7'>Miro.</h2>
                             <hr />
-                            <h3 className='text-yellow-500 text-xl font-bold mt-12'>
+                            <Link className='block text-yellow-500 text-xl font-bold mt-12'>
                                 <span className='mr-2'>-</span>
                                 iPhone
-                            </h3>
-                            <h3 className='text-yellow-500 text-xl font-bold mt-5'>
+                            </Link>
+                            <Link className='block text-yellow-500 text-xl font-bold mt-5'>
                                 <span className='mr-2'>-</span>
                                 Android
-                            </h3>
-                            <h3 className='text-yellow-500 text-xl font-bold mt-5'>
+                            </Link>
+                            <Link className='block text-yellow-500 text-xl font-bold mt-5'>
                                 <span className='mr-2'>-</span>
                                 Help
-                            </h3>
-                            <h3 className='text-yellow-500 text-xl font-bold mt-5'>
+                            </Link>
+                            <Link className='block text-yellow-500 text-xl font-bold mt-5'>
                                 <span className='mr-2'>-</span>
                                 About
-                            </h3>
-                            <h3 className='text-yellow-500 text-xl font-bold mt-5'>
+                            </Link>
+                            <Link className='block text-yellow-500 text-xl font-bold mt-5'>
                                 <span className='mr-2'>-</span>
                                 Insights
-                            </h3>
+                            </Link>
                         </div>
                     </div>
                     <p className='mt-16'>Apple, the Apple logo, and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android, Google Play and the Google Play logo are trademarks of Google LLC.</p>

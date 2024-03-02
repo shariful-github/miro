@@ -49,10 +49,18 @@ const BuiltForAll = () => {
                         </Link>
                         <p className='text-[#696688] text-lg mt-16'>Integrate your favorite tools</p>
                         <div className='flex gap-9 mt-5'>
-                            <img src={img1} alt="" />
-                            <img src={img2} alt="" />
-                            <img src={img3} alt="" />
-                            <img src={img4} alt="" />
+                            <Link>
+                                <img src={img1} alt="" />
+                            </Link>
+                            <Link>
+                                <img src={img2} alt="" />
+                            </Link>
+                            <Link>
+                                <img src={img3} alt="" />
+                            </Link>
+                            <Link>
+                                <img src={img4} alt="" />
+                            </Link>
                         </div>
                     </div>
                     <div className='lg:col-span-8'>
